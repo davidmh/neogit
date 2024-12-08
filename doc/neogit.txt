@@ -392,6 +392,10 @@ The following mappings can all be customized via the setup function.
                         or a path the user has specified. Optionally, a range
                         can be specified to further filter the log entries.
 
+                                                             *:NeogitLogCurrent*
+:NeogitLogCurrent       Opens the log buffer showing the history of the
+                        current file. Skips the filtering step.
+
                                                                  *:NeogitCommit*
 :NeogitCommit           Opens the commit view for the specified SHA, or `HEAD`
                         if left blank.
